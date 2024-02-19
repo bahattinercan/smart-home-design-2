@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        useMaterial3: false,
         brightness: Brightness.dark,
         primarySwatch: MainColors.greenColor,
         tabBarTheme: TabBarTheme(
